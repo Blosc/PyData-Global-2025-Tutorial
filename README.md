@@ -43,12 +43,12 @@ One may navigate to the repo via the command line, or from the jupyter notebook 
 
 From the command line run
 ```
-pip install caterva2[services] psutils blosc2 matplotlib ipympl --update
+pip install caterva2[services] psutils blosc2 matplotlib ipympl -U
 ```
 
 Alternatively, in a jupyter notebook cell, run (note the exclamation mark).
 ```
-!pip install caterva2[services] psutils blosc2 matplotlib ipympl --update
+!pip install caterva2[services] psutils blosc2 matplotlib ipympl -U
 ```
 
 That should be it! Open the first notebook and check that the first few cells all run to be sure!
