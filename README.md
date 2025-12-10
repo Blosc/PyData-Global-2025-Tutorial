@@ -13,42 +13,42 @@ Before the tutorial, it is advisable to have jupyter notebook installed (see [he
 This can be managed via Anaconda if you prefer (download [here](https://www.anaconda.com/download) and follow the instructions), 
 but in the command line (Windows/Linux/MacOS) it is very simple.
 
-Before installing Jupyter Notebook, make sure you have Python (version 3.8 or later) installed and ``pip`` 
+Before installing Jupyter Notebook, make sure you have Python (version 3.10 or later) installed and ``pip``
 ```
 python --version
 pip --version
 ```
 
 You may want to create an environment via
-```conda create --name testenv python=3.12```
-if you have ``conda`` installed. You will still have to use ``pip`` to install the packages though.
+```shell
+conda create --name testenv python=3.12
+conda activate testenv
+```
+if you have ``conda`` installed.
 
-### Installing Jupyter Notebook
 
-Install Jupyter using ``pip`` via
-```pip install notebook```
-
-#### Opening Jupyter Notebook from the Command Line
-
-Once installed, you can launch Jupyter Notebook by running
-```jupyter notebook```
-which will open a window in your browser, where you may manage notebooks.
+You will still have to use ``pip`` to install the packages though.
 
 ### Clone this git repo
 
 Use either SSH, url or a zip file (click on the green 'Code' button in the top right), making sure to clone into the relevant directory. 
 One may navigate to the repo via the command line, or from the jupyter notebook web browser interface.
 
+```
+git clone https://github.com/Blosc/PyData-Global-2025-Tutorial.git
+cd PyData-Global-2025-Tutorial
+```
+
 ### Install dependencies
 
 From the command line run
 ```
-pip install caterva2[services] psutils blosc2 matplotlib ipympl -U
+pip install caterva2[services] pip notebook jupyterlab psutils blosc2 matplotlib ipympl --upgrade
 ```
 
-Alternatively, in a jupyter notebook cell, run (note the exclamation mark).
+Finally, run the notebooks with:
 ```
-!pip install caterva2[services] psutils blosc2 matplotlib ipympl -U
+jupyter lab
 ```
 
-That should be it! Open the first notebook and check that the first few cells all run to be sure!
+That should be it! Open the first notebook and check that the first few cells all run to be sure.
