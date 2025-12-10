@@ -9,9 +9,7 @@ https://www.blosc.org/docs/2025-PyDataGlobal-Blosc2.pdf
 
 ## Setup
 
-Before the tutorial, it is advisable to have jupyter notebook installed (see [here](https://jupyter.org/install)).
-This can be managed via Anaconda if you prefer (download [here](https://www.anaconda.com/download) and follow the instructions), 
-but in the command line (Windows/Linux/MacOS) it is simpler.  You can also use uv, which is increasingly used (see below).
+Before the tutorial, it is advisable to have jupyter notebook installed (see [here](https://jupyter.org/install)). This can be managed via Anaconda if you prefer (download [here](https://www.anaconda.com/download) and follow the instructions), but in the command line (Windows/Linux/MacOS) it is simpler.  You can also use uv, which is an incredibly handy installer (see below).
 
 ### Using Conda
 
@@ -43,8 +41,7 @@ uv pip install -r requirements.txt
 
 ### Clone this git repo
 
-Use either SSH, url or a zip file (click on the green 'Code' button in the top right), making sure to clone into the relevant directory. 
-One may navigate to the repo via the command line, or from the jupyter notebook web browser interface.
+Use either SSH, url or a zip file (click on the green 'Code' button in the top right), making sure to clone into the relevant directory. One may navigate to the repo via the command line, or from the jupyter notebook web browser interface.
 
 ```
 git clone https://github.com/Blosc/PyData-Global-2025-Tutorial.git
