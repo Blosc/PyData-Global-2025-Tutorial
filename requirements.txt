@@ -1,0 +1,8 @@
+numpy
+blosc2
+caterva2[services]
+notebook
+jupyterlab
+psutils
+matplotlib
+ipympl
